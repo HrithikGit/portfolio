@@ -1,0 +1,24 @@
+.nbar{
+    padding : 10px;
+    position : fixed !important;
+    z-index: 100000;
+}
+.nbar ul{
+    list-style-type: none;
+}
+.logo{
+    padding-left : 20px;
+    font-size : 20px;
+    color :#007EE5;
+    font-weight: bold
+
+}
+.nbar ul li{
+    font-weight: bold;;
+    cursor: pointer;
+    padding : 10px 20px;
+}
+.nbar ul li:hover{
+    color :#007EE5;
+    transition: color 0.5s ease-in-out;
+}
