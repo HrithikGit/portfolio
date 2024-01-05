@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 function Container(){
 
-    const [theme,setTheme] = useState("light-theme");
+    const [theme,setTheme] = useState("dark-theme");
 
     const switchTheme = (theme)=>{
         setTheme(theme=="light-theme" ? "dark-theme" : "light-theme");
